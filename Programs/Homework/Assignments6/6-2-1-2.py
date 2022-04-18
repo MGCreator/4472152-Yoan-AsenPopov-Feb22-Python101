@@ -63,7 +63,7 @@ while True:
         try:
             numbers.append(int(num1))
         except:
-            break
+            isNumber = False
 
     length = len(numbers)
     sign = num1
